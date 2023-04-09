@@ -12,6 +12,14 @@ import SignUp from './components/components/Pages/Signup';
 import Chat from './components/components/Pages/Chat';
 import VideoStreaming from './components/components/layouts/VideoStreaming';
 import { videos } from "./components/components/Data/Videos";
+// import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+
+// import LoginPage from './components/Pages/LoginPage';
+import {auth} from "./firebase"
+import { useEffect } from 'react';
+// import {useState} from 'react';
+
+
 
 
 import LandingPage from './components/Pages/LandingPage'
@@ -26,6 +34,16 @@ import NavBar from './components/Pages/Groups/components/NavBar/NavBar';
 
 
 const App = () => {
+
+    const [userName,setuserName]=useState("");
+  useEffect(()=>{
+    auth.onAuthStateChanged(user=>{
+      if(user){
+        setuserName(user.displayName)
+      }else setuserName("")
+    })
+  })
+
 
     const [sessionID, setSessionID] = useState('');
   const [isHost,setIsHost] = useState(false);
@@ -50,7 +68,7 @@ const App = () => {
                 <div className="flex flex-col h-full">
                     <Header />
                     <Routes>
-                    <Route path='/' element = {<Layout/>}/>
+                    <Route path='/home' element = {<Layout/>}/>
                     <Route path = '/Login' element = {<LoginPage/>}/>
                     <Route path= '/Signup' element = {<SignUp/>}/>
                     <Route path = '/Chat' element = {<Chat/>}/>
@@ -74,7 +92,7 @@ const App = () => {
                         <Route exact path='/groups' element={<Landing session={newSession} />} />
                         <Route exact path='/groups/watch/host/:sessionID/:vidID' element={<YTSession vidID={vidID} sessionID={sessionID} isHost={isHost} userAction={'create-room'} />} />
                         <Route exact path='/groups/watch/:sessionID/:vidID' element={<YTSession vidID={vidID} sessionID={sessionID} isHost={isHost} userAction={userActionType} />} />
-                    
+                        <Route path='/' element = {<LoginPage/>}/>
                     </Routes>
                 </div>
             </BrowserRouter>

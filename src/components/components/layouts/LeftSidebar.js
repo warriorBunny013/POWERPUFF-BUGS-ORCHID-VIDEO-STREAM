@@ -15,7 +15,7 @@ function LeftSidebar() {
     <div className = {classes.leftside}>
         {/* <h1 className = {classes.home}>Categories</h1> */}
       <ul className = {classes.listItems}>
-      <Link to = '/'> <li><HomeIcon style={{paddingRight : "0.8rem", minWidth : "2.5rem"}}/><span className = {classes.lefttele}>
+      <Link to = '/home'> <li><HomeIcon style={{paddingRight : "0.8rem", minWidth : "2.5rem"}}/><span className = {classes.lefttele}>
             Home</span></li></Link> 
         <li><MusicNoteIcon style={{paddingRight : "1rem",minWidth: '2.5rem'}}/><span className = {classes.lefttele}>Music</span></li>
         <li><MovieIcon style={{paddingRight : "0.8rem",minWidth: '2.5rem'}}/><span className = {classes.lefttele}>Movies</span></li>

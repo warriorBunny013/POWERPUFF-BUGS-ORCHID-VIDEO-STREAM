@@ -1,9 +1,6 @@
 import React, { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
-// import ytLogo from "../images/yt-logo.png";
-// import ytLogoMobile from "../images/yt-logo-mobile.png";
-
 import { SlMenu } from "react-icons/sl";
 import { IoIosSearch } from "react-icons/io";
 import { RiVideoAddLine } from "react-icons/ri";
@@ -53,7 +50,7 @@ const Header = () => {
                         )}
                     </div>
                 )}
-                <Link to="/" className="flex h-5 items-center">
+                <Link to="/home" className="flex h-5 items-center">
                    <h1 className="text-3xl pl-2 text-sky-900 font-bold font-serif">ORCHID</h1>
                 </Link>
             </div>
@@ -81,7 +78,8 @@ const Header = () => {
             <div className="flex items-center">
                 <div className="hidden md:flex">
                     <div className="flex items-center justify-center h-10 w-10 rounded-full hover:bg-[#303030]/[0.6]">
-                        <RiVideoAddLine className="text-white text-xl cursor-pointer" />
+                        {/* <RiVideoAddLine className="text-white text-xl cursor-pointer" /> */}
+                       
                     </div>
                     
                 </div>

@@ -64,26 +64,25 @@ function Landing(props){
                   <Link to="/groups/watch/host/ueioqwjckasjdlzc/TnakUFi0J1c">
                   <button 
                 //   onClick={onSubmit} 
-                  className="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Create Room</button>
+                  className="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Enter Watch Party</button>
               
                   </Link>
                  </div>
           {/* </form> */}
           {/* </Transition> */}
       
-  <a  className="block mt-2 max-w-sm p-6 mx-auto bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+          <a  className="block mt-2 max-w-sm p-6 mx-auto bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
       <p className="font-normal text-gray-700 dark:text-gray-400">
-          <span className="font-bold">Step 1:</span> Create a Room to start watch party with your friends 🎉</p>
+          <span className="font-bold">START :</span> You can start a watch party and stream with you friends 🎉</p>
   </a>
   <a  className="block mt-2 max-w-sm p-6 mx-auto bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
       <p className="font-normal text-gray-700 dark:text-gray-400">
-          <span className="font-bold">Step 2:</span>Add participants or invite your friends via Invite Link ✉️</p>
+          <span className="font-bold">INVITE :</span>Copy the link and invite your friends over the Room ✉️</p>
   </a>
   <a className="block mt-2 max-w-sm p-6 mx-auto bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
       <p className="font-normal text-gray-700 dark:text-gray-400">
-          <span className="font-bold">Step 3:</span>Stream and chat with your friends and make wonderful memories😎</p>
+          <span className="font-bold">CHAT :</span>Stream and chat with your friends and make wonderful memories😎</p>
   </a>
-  
   
           
   
