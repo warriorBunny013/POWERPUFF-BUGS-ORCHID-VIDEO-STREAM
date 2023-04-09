@@ -1,0 +1,70 @@
+.watch-container{
+    position: absolute;
+    top: 5%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+.mid-row{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f0f0;
+  overflow-x: hidden;
+}
+
+.share{
+    display: flex;
+    justify-content: center;
+    padding: 1% 0% 1% 5%;
+    flex-flow: row nowrap;
+}
+.text{
+    display: flex;
+    max-width: max-content;
+    justify-content: center;
+    align-items: center;
+}
+.input-copy{
+    display: flex;
+    padding-left: 2%;
+    right: 1%;
+    bottom: 0;
+    left: 0;
+}
+
+.sharelink .text{
+    padding: 0%;
+    display: flex;
+    flex: 1;
+    margin: 0%;
+}
+
+.vid-container{
+    display: flex;
+    background-color: #ffffff;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 3;
+}
+
+.sidemenu{
+    background-color: #f0f0f0;
+
+}
+
+.react-player{
+    display: flex;
+    flex: 2;
+    height: 560px;
+    width: 940px;
+}
+
+.video{
+    display: flex;
+}

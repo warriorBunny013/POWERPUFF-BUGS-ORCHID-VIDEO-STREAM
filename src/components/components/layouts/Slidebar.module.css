@@ -1,0 +1,90 @@
+/* body{
+    background-color: rgb(68 64 60);
+}
+.box{
+    width: 70%;
+    margin:0 auto; 
+}
+.slick-slide>div{
+    margin:0 10px;
+}
+.slick-list{
+    margin:0 -10px;
+}
+.card{
+    border:1px solid white;
+    /* background: red; */
+    /* border-radius: 8px;
+    overflow-x:hidden; */
+    /* height:150px;
+    width : 300px; */
+    /* color: aqua; */
+    /* margin-right : 2px; */
+    /* padding : 4px;
+    margin : 4px; */
+    /* From https://css.glass */
+    
+/* } */
+
+/* .card-box{
+    background: rgba( 220, 38, 38, 0.75 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+width:30rem;
+height:12rem
+}
+.muffin{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+} */ 
+
+/* .top{ */
+    /* padding-right : 0; */
+    /* width : 30%; */
+
+    body{
+        background-color: black;
+    }
+    .box{
+        width: 70%;
+        margin:0 auto; 
+    }
+    .slick-slide>div{
+        margin:0 10px;
+    }
+    .slick-list{
+        margin:0 -10px;
+    }
+    .card{
+        border:1px solid white;
+        background: red;
+        border-radius: 8px;
+        overflow-x:hidden;
+        height:150px;
+        width : 300px;
+        color: aqua;
+        /* margin-right : 2px; */
+        padding : 4px;
+        margin : 4px;
+        /* From https://css.glass */
+        
+    }
+    
+    .card-box{
+        background: rgba( 220, 38, 38, 0.75 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width:30rem;
+    height:12rem
+    }
+    .muffin{
+        background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    }
+    

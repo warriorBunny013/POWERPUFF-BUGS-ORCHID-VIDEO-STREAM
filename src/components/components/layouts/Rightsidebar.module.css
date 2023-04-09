@@ -1,0 +1,7 @@
+.rightParent{
+    display : flex;
+    flex-direction: column;
+    background-color: black;
+    width : 23%;
+    padding:0.6rem;
+}
