@@ -19,9 +19,10 @@ https://user-images.githubusercontent.com/97738453/230852237-1b45449f-d567-4e69-
 ![image](https://user-images.githubusercontent.com/97738453/230852708-2e9f42b6-145a-4fa5-8b95-d344eda679ea.png)
 
 # Technologies used:
- REACTJS, NODEJS, TAILWIND CSS, SOCKET.IO, OPENAI
+ReactJS, TailwindCSS, NodeJS, Socket.IO, OpenAI
  
- # Teach name: POWERPUFF BUGS(UDITI, SHREYA, SHIYA)
+ # Team name:
+  POWERPUFF BUGS(UDITI, SHREYA, SHIYA)
  
  # Problem ORHID solves:
  
