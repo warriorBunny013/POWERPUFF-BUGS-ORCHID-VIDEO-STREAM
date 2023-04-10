@@ -1,7 +1,41 @@
 # DEMO LINK:
-https://youtu.be/t_Sf8E_FaWQ
 
-https://youtu.be/BPCrrf7UWV0
+https://youtu.be/Pu7q2pTrSLM
+
+# Screens:
+
+![image](https://user-images.githubusercontent.com/97738453/230851940-4b8f68de-92e2-455b-ae7b-04c534e3de1e.png)
+![image](https://user-images.githubusercontent.com/97738453/230852061-41d2d9ca-2589-485f-bdcc-6323a635135b.png)
+
+
+https://user-images.githubusercontent.com/97738453/230852237-1b45449f-d567-4e69-b0d4-4cb51a3b8d5b.mp4
+
+![image](https://user-images.githubusercontent.com/97738453/230852389-c67a2bf3-b68f-42d7-b7d9-5877845f6311.png)
+![image](https://user-images.githubusercontent.com/97738453/230852424-e81c7860-1a23-4c88-8628-8a735f58ed05.png)
+![image](https://user-images.githubusercontent.com/97738453/230852514-6b8dce80-1ffa-4b30-b1d2-169824f47af3.png)
+![image](https://user-images.githubusercontent.com/97738453/230852544-3b53bbba-77dd-4e24-a7be-ff9513ea08f8.png)
+![image](https://user-images.githubusercontent.com/97738453/230852608-5a0d2d09-d3b3-47d8-9b9d-86149605ba86.png)
+![image](https://user-images.githubusercontent.com/97738453/230852666-b23bd7e7-ea10-4b38-9aa7-9a53f0171aad.png)
+![image](https://user-images.githubusercontent.com/97738453/230852708-2e9f42b6-145a-4fa5-8b95-d344eda679ea.png)
+
+# Technologies used:
+ REACTJS, NODEJS, TAILWIND CSS, SOCKET.IO, OPENAI
+ 
+ # Teach name: POWERPUFF BUGS(UDITI, SHREYA, SHIYA)
+ 
+ # Problem ORHID solves:
+ 
+ - This platform helps to stream youtube videos without any adds
+ - This has an extra feature of chat bot where we can ask "SINA" (our chatbot guide) about suggesting amazing videos from youtube to watch in your boredom.
+ - Orchid also has a Watch party feature where we can enter a code to join a watch party, invite our friends through the link and stream youtube videos with our friends and families.
+ 
+ # Challenges we ran into:
+ 
+ - We unable to integrate the chat(socket.io) feature along with the watch party feature. Although we'll work on it and make it possible.
+ - We unable to make wached and watchlist feature where we can add videos into our watchlist stack and watch it later.
+ - We had difficulty in managing and integrating the Youtube Api in our web app but we did it finally.
+ 
+
 
 # Getting Started with Create React App
 
