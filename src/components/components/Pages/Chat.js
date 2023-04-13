@@ -1,10 +1,11 @@
 import { useState } from 'react'
 // import './App.css'
+
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
-import Navbar from '../layouts/Navbar';
+// import Navbar from '../layouts/Navbar';
 
-const API_KEY = "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";
+const API_KEY = "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";
 
 const systemMessage = { 
   "role": "system", "content": "Explain things like you're talking to a software professional with 2 years of experience."

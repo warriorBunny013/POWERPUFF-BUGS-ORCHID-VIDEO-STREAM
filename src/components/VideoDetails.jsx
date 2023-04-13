@@ -8,6 +8,7 @@ import { abbreviateNumber } from "js-abbreviation-number";
 import { fetchDataFromApi } from "../utils/api";
 import { Context } from "../context/contextApi";
 import SuggestionVideoCard from "./SuggestionVideoCard";
+import Header from "./Header";
 
 const VideoDetails = () => {
     const [video, setVideo] = useState();
@@ -40,6 +41,8 @@ const VideoDetails = () => {
     };
 
     return (
+        <>
+        <Header/>
         <div className="flex justify-center flex-row h-[calc(100%-56px)] bg-black">
             <div className="w-full max-w-[1280px] flex flex-col lg:flex-row">
                 <div className="flex flex-col lg:w-[calc(100%-350px)] xl:w-[calc(100%-400px)] px-4 py-3 lg:py-6 overflow-y-auto">
@@ -109,6 +112,7 @@ const VideoDetails = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 

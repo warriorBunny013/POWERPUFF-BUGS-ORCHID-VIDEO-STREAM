@@ -6,6 +6,7 @@ import { Context } from "../context/contextApi";
 import LeftNav from "./LeftNav";
 import SearchResultVideoCard from "./SearchResultVideoCard";
 import LeftSidebar from "./components/layouts/LeftSidebar";
+import Header from "./Header";
 const SearchResult = () => {
     const [result, setResult] = useState();
     const { searchQuery } = useParams();
@@ -26,8 +27,10 @@ const SearchResult = () => {
     };
 
     return (
+        <>
+        <Header/>
         <div className="flex flex-row h-[calc(100%-56px)]">
-
+            
             <LeftSidebar/>
             <div className="grow w-[calc(100%-240px)] h-full overflow-y-auto bg-black">
                 <div className="grid grid-cols-1 gap-2 p-5">
@@ -44,6 +47,7 @@ const SearchResult = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 

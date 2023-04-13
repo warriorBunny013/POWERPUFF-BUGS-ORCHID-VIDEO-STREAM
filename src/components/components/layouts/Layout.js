@@ -9,12 +9,14 @@ import Videoss from './Videoss';
 import Slidebar from './Slidebar';
 import LoginPage from '../Pages/LoginPage';
 import Feed from '../../Feed';
-
+import Header from '../../Header';
 function Layout(props) {
   return (
     <>
+     
     <div className='pt-10'>
       {/* <Navbar/> */}
+      <Header />
         <main className = {classes.main}>
          <LeftSidebar/>
          <Mainbody/>

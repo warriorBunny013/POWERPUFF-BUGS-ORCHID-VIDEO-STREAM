@@ -28,7 +28,8 @@ function LeftSidebar() {
         </ul>
         <h2 className = {classes.home}><ChatIcon style={{paddingRight : "1.2rem",minWidth: '2.5rem'}}/><Link to='/Chat'><span className = {classes.lefttele}>Chat</span></Link></h2>
         <ul className = {classes.listItems}>
-        <li><LogoutIcon style={{paddingRight : "1rem",minWidth: '2.5rem'}}/><span className = {classes.lefttele}>Log Out</span></li>
+        <li> 
+          <Link to = '/login'><LogoutIcon style={{paddingRight : "1rem",minWidth: '2.5rem'}}/><span className = {classes.lefttele}>Log Out</span></Link></li>
         </ul>
     </div>
   )

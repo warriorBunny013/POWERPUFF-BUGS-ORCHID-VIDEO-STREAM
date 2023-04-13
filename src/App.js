@@ -66,7 +66,7 @@ const App = () => {
         <AppContext>
             <BrowserRouter>
                 <div className="flex flex-col h-full">
-                    <Header />
+                    {/* <Header /> */}
                     <Routes>
                     <Route path='/home' element = {<Layout/>}/>
                     <Route path = '/Login' element = {<LoginPage/>}/>
